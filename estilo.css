@@ -59,6 +59,14 @@ main {
   text-decoration: none; 
 } 
 
+.cabecalho-link:focus { color: #ffe8d6; } 
+
+.cabecalho-link:active { color: #ffd1a6; } 
+
+.cartao:focus-within .cartao-interno { transform: rotateY(180deg); } 
+
+.cabecalho-link:visited { color: #ffd1a6; } 
+
 h1 { 
   color: #fff; 
   font-size: 24px; 
@@ -68,4 +76,9 @@ footer {
   background-color: #7e3e1c; 
   padding: 15px 25px; 
   color: #fff; 
+} 
+
+section { 
+  display: flex; 
+  gap: 16px; 
 } 

@@ -30,7 +30,7 @@ height: 200px;
 }
 
 
-.cartao-frente, 
+.cartao-imagem, 
 .cartao-verso { 
   position: absolute; 
   border-radius: 12px; 

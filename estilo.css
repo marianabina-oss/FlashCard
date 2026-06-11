@@ -23,14 +23,12 @@ height: 200px;
 }
 
 .cartao-imagem {
-width: 60%;
-}
-
-.cartao-interno { 
+  width: 60%;
   position: relative; 
   transition: transform 0.8s; 
   transform-style: preserve-3d; 
-} 
+}
+
 
 .cartao-frente, 
 .cartao-verso { 
@@ -44,7 +42,7 @@ width: 60%;
   transform: rotateY(180deg); 
 } 
 
-.cartao:hover .cartao-interno { 
+.cartao:hover .cartao-imagem { 
   transform: rotateY(180deg); 
 } 
 

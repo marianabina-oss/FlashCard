@@ -22,7 +22,8 @@ width: 260px;
 height: 200px;
 }
 .cartao-imagem{
-  width: 100%;
+  width: 260px;
+  height: 200px;
 }
 .cartao-interno {
   position: relative; 

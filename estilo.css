@@ -19,11 +19,11 @@ body {
 
 .cartao {
 width: 260px;
-height: 200px;
+height: 300px;
 }
 .cartao-imagem{
   width: 260px;
-  height: 200px;
+  height: 300px;
 }
 .cartao-interno {
   position: relative; 
